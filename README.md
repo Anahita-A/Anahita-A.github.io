@@ -1,8 +1,9 @@
 - 👋 Hi, I’m Anahita
 - 👀 I’m interested in iOS development, reading, and creating!
 - 🌱 I’m currently ... 
-      * upcoming candidate in Master of Computer Science at UC Irvine
-      * part-time CS instructor at Juni Learning
+
+      ○ upcoming candidate in Master of Computer Science at UC Irvine
+      ○ part-time CS instructor at Juni Learning
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
