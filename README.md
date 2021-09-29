@@ -5,7 +5,7 @@
       ○ upcoming candidate in Master of Computer Science at UC Irvine
       ○ part-time CS instructor at Juni Learning
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me : [Linkedin](https://www.linkedin.com/in/anahita-abadian/)
+- 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/anahita-abadian/)
 
 <!---
 anaba-max/anaba-max is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
