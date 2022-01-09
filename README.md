@@ -1,10 +1,6 @@
 - 👋 Hi, I’m Anahita
-- 👀 I’m interested in iOS development, reading, and creating!
-- 🌱 I’m currently ... 
+For viewing my website go to: https://anahita-a.github.io/
 
-      ○ upcoming candidate in Master of Computer Science at UC Irvine
-      ○ part-time CS instructor at Juni Learning
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/anahita-abadian/)
 
 <!---
