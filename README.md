@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Anahita
-For viewing my website go to: https://anahita-a.github.io/
+- 👋 Hi, I’m Anahita!
+To view my website go to: https://anahita-a.github.io/
 
 - 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/anahita-abadian/)
 
