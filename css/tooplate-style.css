@@ -323,7 +323,7 @@ a:hover, a:active, a:focus {
 
 .work-thumb-overlay {
   position: absolute;
-  background: #76bbcc;
+  background: #ecb144c9;
   border-radius: 5px;
   cursor: crosshair;
   opacity: 0;
@@ -378,7 +378,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: #76b8cc;
+  background: #e69a67;
   color: #ffffff;
 }
 
