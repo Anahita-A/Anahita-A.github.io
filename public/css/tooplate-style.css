@@ -269,11 +269,17 @@ a:hover, a:active, a:focus {
 
 .service-thumb:hover .fa,
 .service-thumb:hover h4 {
-  color: #ffffff;
+  color: #ffffff;  
 }
 
 .service-thumb h4 {
   padding-bottom: 5px;
+}
+
+.service-thumb {
+  
+  border:solid 1px #B6B6B6;
+  text-align: justify;
 }
 
 .service-thumb .fa {
@@ -324,6 +330,10 @@ a:hover, a:active, a:focus {
 .about-thumb p {
   padding: 2px 0;
 }
+
+/*---------------------------------------
+  Work section              
+-----------------------------------------*/
 
 .timeline-block .section-header{
 	margin-bottom:80px;
@@ -397,9 +407,7 @@ a:hover, a:active, a:focus {
 	color:rgba(0, 0, 0, 0.902);
 }
 
-/*---------------------------------------
-  Work section              
------------------------------------------*/
+
 
 .work-thumb {
   margin: 22px 0 12px 0;
