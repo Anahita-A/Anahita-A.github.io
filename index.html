@@ -66,38 +66,175 @@ http://www.tooplate.com/view/2087-kalay
 <section id="service" class="parallax-section">
      <div class="container">
           <div class="row">
+               <div class="col-md-3" data-wow-delay="0.4s">
 
-               <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                    <!-- SECTION TITLE -->
-                    <h2>About Me</h2>
-               </div>
-                    <div class="wow fadeInUp" data-wow-delay="0.8s">
-                         <p>Hi! My name is Anahita! I hold a Master's degree in Computer Science from University of California, Irvine.                             
-                              I love learning and creating, which is why coding sparks joy in me! So, about 4.5 years ago, I decided to take my learning to the next level by going to graduate 
-                              school for Computer Science. It was challenging, especially since almost all my peers had undergraduate degrees in CS, and some
-                              had years of experience in the tech industry. 
-                              <br> Despite all the challenges, I persevered. Long story short, The most valuable outcome of my graduate studies 
-                              was learning how to learn effectively and efficiently. This skill has been incredibly beneficial and is something I continually rely on in my career.<br>
+                         <Strong style="font-size: 16px">Name:</Strong>
+                         <span style="font-size: 16px">Anahita Abadian<br><br></span>
 
-                         <br>I got my first Software Engineering job at Expedia Group, and started in August 2022. The most valuable lesson I leaned there was 
-                    to belive in myself, and my abilities.<a href=/about><u> More about Me</u> </a></p>
+                         <Strong style="font-size: 16px">Pronouns:</Strong>
+                         <span style="font-size: 16px">She/Her/Hers<br><br></span>
+
+                    <div class='about-btns' >
+        
+                         <a target="_blank" href='images/Resume_Abadian.pdf' class='btn resume-btn' download='Anahita-Resume'>
+                              Download Resume
+                         </a>
+
                     </div>
                </div>
-          </div>
-     </div>
+
+               <div class="col-md-offset-4">
+                    
+                    <div class="wow fadeInUp about-text" data-wow-delay="0.4s">
+                                                  
+                              <p>Hi! My name is Anahita! I hold a Master's degree in Computer Science from <Strong>University of California, Irvine</Strong>.                             
+                                   I love learning and creating, which is why coding sparks joy in me! About 4.5 years ago, I decided to take my learning to the next level by going to graduate 
+                                   school for Computer Science. It was challenging, especially since almost all my peers had undergraduate degrees in CS, and some
+                                   had years of experience in the tech industry. 
+                                   <br> Despite all the challenges, I persevered. Long story short, The most valuable outcome of my graduate studies 
+                                   was learning how to learn effectively and efficiently. This skill has been incredibly beneficial and is something I continually rely on in my career.<br>
+     
+                              <br>I got my first Software Engineering job at Expedia Group, and started in August 2022. The most valuable lesson I leaned there was 
+                         to belive in myself and my abilities.<a href=/about><u> More about Me</u> </a></p>
+     
+                    </div>
+                    
+
+               </div>
+
 </section>
 
-<!-- PROJECT SECTION -->
+
+<!-- WORK SECTION -->
 <section id="project" class="parallax-section">
      <div class="container">
           <div class="row">
                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
                     <!-- SECTION TITLE -->
+                    <h2>Work Experience</h2>
+                    <ul class='timeline' >
+								
+                         <li>
+                               
+                           <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
+                                 
+                             <h4>Expedia Group</h4>
+                                 
+                             <em>
+                               <span>Software Engineer ||</span>
+                               <span> | </span>
+                               <span>Seattle, WA</span>
+                               <span> | </span>
+                               <span>September 2023 - May 2024</span>
+                             </em>
+                                 
+                             <p>
+                               <ul style="list-style-type:disc;">
+                                 <li> Identified and addressed a gap in an existing GraphQL Service.First,Conducted thorough analysis and
+                                   meticulously documented potential resolutions. Then, implemented customized Elasticsearch queries, including Multi-match and Boolean Query, using Spring Boot’s Spring Data Elasticsearch library. These enhancements enabled nested query functionality, supporting ~1300TPS</li>
+                                 <li>Set up AWS resources, including an S3 bucket and cross-functional IAM Role, via CloudFormation templates. This facilitated seamless uploading of test results from Jenkins to S3</li>
+                                 <li>Provided on-call support for Tier-1 and Tier-2 services, utilizing Datadog and Splunk for monitoring and troubleshooting purposes, and debugging client tickets</li>
+                                 <br>
+                                 
+                                   <button class = "skill"><h6>Kotlin</h6></button>
+                                   <button class = "skill"><h6>Spring Boot</h6></button>
+                                   <button class = "skill"><h6>GraphQL</h6></button>
+                                   <button class = "skill"><h6>Elasticsearch</h6></button>
+                                   <button class = "skill"><h6>Maven</h6></button>
+                                   <button class = "skill"><h6>Docker</h6></button>
+                                   <button class = "skill"><h6>Kubernetes</h6></button>
+                                   <button class = "skill"><h6>AWS ECS</h6></button>
+                                   <button class = "skill"><h6>Splunk</h6></button>
+                              
+                               </ul>
+                             </p>
+                                 
+                           </div>
+                               
+                         </li>
+             
+                         <li>
+                               
+                           <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
+                                 
+                             <h4>Expedia Group</h4>
+                                 
+                             <em>
+                               <span>Software Engineer |</span>
+                               <span> | </span>
+                               <span>Seattle, WA</span>
+                               <span> | </span>
+                               <span>August 2022 - September 2023</span>
+                             </em>
+                                 
+                             <p>
+                               <ul style="list-style-type:disc;">
+                                   <li>Established a Jenkins pipeline tailored specifically for our service.This pipeline orchestrated the entire CI/CD process, seamlessly integrating build, test and security scan stages</li>
+                                   <li>Increased the Test coverage of ~10 micro-services,leveraging Junit and Mockito for Unit Testing,and Wiremock for Integration Testing. Achieving a comprehensive coverage rate surpassing 85%, thereby ensuring compliance with internal testing standards</li>
+                                   <li>Successfully mentored and onboarded a new intern. Prepared an structured Onboarding checklist to facilitate their seamless integration into the team, and ensure a productive learning experience</li>
+                                   <br>
+                                   
+                                        <button class = "skill"><h6>Java</h6></button>
+                                        <button class = "skill"><h6>Spring Boot</h6></button>
+                                        <button class = "skill"><h6>Gradle</h6></button>
+                                        <button class = "skill"><h6>MySQL</h6></button>
+                                        <button class = "skill"><h6>AWS Cloudformation</h6></button>
+                                        <button class = "skill"><h6>DataDog</h6></button>
+                                        <button class = "skill"><h6>Jenkins</h6></button>
+                                        <button class = "skill"><h6>Github Actions</h6></button>
+                                   
+                               </ul>
+                               <br>            
+                             </p>
+                                 
+                           </div>
+                               
+                         </li>
+             
+                         <li>
+                               
+                           <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
+                                 
+                             <h4>Juni Learning</h4>
+                                 
+                             <em>
+                               <span>Computer Science Instructor (Remote)</span>
+                               <span> | </span>
+                               <span>San Francisco, CA</span>
+                               <span> | </span>
+                               <span>June 2021 - February 2022</span>
+                             </em>
+                                 
+                             <p>
+                               <ul style="list-style-type:disc;">
+                                 <li>Executed computer science lesson plans in Python, ranging from basic data structures to applied programming over Zoom, for students ages 6-15 while adapting to student needs and interests</li>
+                                 <li>Communicated with parents on a regular basis, providing updates on student progress and results from learning assessments, and maintained thorough records for each student’s skill progression</li>
+                                 <li>Managed 7 student sessions per week, alongside lesson preparations and homework evaluations</li>
+                                 <br>
+                                 <button class = "skill"><h6>Python</h6></button>
+                                 <button class = "skill"><h6>Data Structures & Algorithms</h6></button>
+                                 <button class = "skill"><h6>Scratch MIT</h6></button>
+                               </ul>
+                               
+                                 
+                           </div>
+                               
+                         </li>            
+                       </div>
+                  </div>
+             </section>
+
+<!-- PROJECT SECTION -->
+<section id="project" class="parallax-section">
+     <div class="container">
+          <div class="row">
+               <div class="wow fadeInUp about-text" data-wow-delay="0.2s">
+                    <!-- SECTION TITLE -->
                     <h2>Projects</h2>
                     <p>Click on any project for the gihub repository</p>
                </div>
 
-               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+               <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                     <a target="_blank" href="https://github.com/Anahita-A/qwkipedia">
                     <div class="service-thumb">
                          
@@ -116,7 +253,7 @@ http://www.tooplate.com/view/2087-kalay
                     </a>
                </div>
 
-               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+               <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                     <a target="_blank" href="https://github.com/Anahita-A/Anahita-A.github.io">
                     <div class="service-thumb">
                          <i class="fa fa-clone" style="color: rgba(240, 187, 119, 0.801);"></i>
@@ -134,7 +271,7 @@ http://www.tooplate.com/view/2087-kalay
                </a>
                </div>
 
-               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+               <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                     <a target="_blank" href="https://seedsecuritylabs.org/Labs_20.04/">
                     <div class="service-thumb">
                          <i class="fa fa-cogs" style="color: rgb(238, 156, 109);"></i>
@@ -158,73 +295,40 @@ http://www.tooplate.com/view/2087-kalay
      </div>
 </section>
 
-<!-- SKILLS SECTION -->
-<section id="skill" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-12 col-sm-12">
-                    <!-- SECTION TITLE -->
-                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                         <br><br><br><br>
-                         
-                         <h2>Skills</h2>
-                         
-                         <p><b>Languages/frameworks:</b> Java, Python, Kotlin, Swift, Cocoapods, HTML, CSS, SQL</p>
-                         <p><b>Tools:</b> Spring Boot, Gradle, Maven, Jenkins, Kubernetes, Docker, AWS, Git, MySQL, Elasticsearch, Spinnaker, Splunk, Datadog, Github Actions, Artifactory </p>
-                         
-                    </div>
-               </div>
-          </div>
-     </div>
-</section>
-
 
 <!-- HOBBIES SECTION -->
 <section id="service" class="parallax-section">
      <div class="container">
           <div class="row">
 
-               <div class="col-md-12 col-sm-12">
-                    <!-- SECTION TITLE -->
-                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                         <h2>Hobbies & Interests</h2>
-                    </div>
+               <!-- SECTION TITLE -->
+               <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         
+               <h2 style="text-align: left;">Hobbies and Interests</h2>
                </div>
-
-               <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
-                    <!-- WORK THUMB -->
-                    <div class="work-thumb">
-                         <a href="public/images/plants.jpg" class="image-popup">
-                              <div class="work-thumb-overlay">
-                                   <h4 class="white-color">Plants!</h4>
+                    <div class="about-text wow fadeInUp col-md-8 col-sm-6" data-wow-delay="0.4s">
+                         
+                         <br>
+                              <p style="text-align: left;">I planted my first avocado seed 2 years ago, and watching it grow brought me so much 
+                              joy. Slow and steady care eventually yields fruitful rewards.</p>
+                              <p style="text-align: left;"> My other interest is combining multiple recipes, and creating somewhat new and unique 
+                              dishes with a fusion of flavors! </p>
+                              <p style="text-align: left;"> Overall, I’m passionate about personal growth. I enjoy listening to podcasts, and reading about 
+                                   different topics like personal finance and healthy living.</p>
                                    
-                              </div>
-                              <img src="public/images/plants.jpg" class="img-responsive" alt="Work 1">
-                         </a>
                     </div>
-               </div>
-
-               <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
-                    <!-- WORK THUMB -->
-                                   <br>
-                         <p style="text-align: left;">I planted my first avocado seed 2 years ago, and watching it grow brought me so much 
-                         joy that I planted more seeds, and got some other plants as well! I would call myself a beginner gardener!</p>
-                         <p style="text-align: left;"> My other interest is combining multiple recipes, and creating somewhat new and unique 
-                         dishes with a fusion of flavors! </p>
-                              
-               </div>
-
-               <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
-                    <!-- WORK THUMB -->
-                    <div class="work-thumb">
-                         <a href="public/images/recipes.jpg" class="image-popup">
-                              <div class="work-thumb-overlay">
-                                   <h4 class="white-color">Recipes!</h4>
-                                   
-                              </div>
-                              <img src="public/images/recipes.jpg" class="img-responsive" alt="Work 3">
-                         </a>
+     
+                    <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="public/images/plants.jpg" class="image-popup">
+                                   <div class="work-thumb-overlay">
+                                        <h4 class="white-color">Plants!</h4>
+                                        
+                                   </div>
+                                   <img src="public/images/plants.jpg" class="img-responsive" alt="Work 1">
+                              </a>
+                         </div>
                     </div>
                </div>
 
@@ -233,51 +337,12 @@ http://www.tooplate.com/view/2087-kalay
 </section>
 
 
-<!-- CONTACT SECTION 
-<section id="contact" class="parallax-section">
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-12 col-sm-12">
-                    
-                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                         <h2>Get in touch</h2>
-                         <p>If you want to hear from me!</p>
-                    </div>
-               </div>
-
-               <div class="col-md-7 col-sm-10">
-                    
-                    <div class="wow fadeInUp" data-wow-delay="0.4s">
-                        <form id="contact-form" action="#" method="get">
-                              <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" name="name" placeholder="Name" required="">
-                              </div>
-                              <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                              </div>
-                              <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="5" name="message" placeholder="Message" required=""></textarea>
-                              </div>
-                              <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
-                                   <button id="submit" type="submit" class="form-control" name="submit">Sign Me Up!</button>
-                              </div>
-                        </form>
-                    </div>
-               </div>
-
-
-          </div>
-     </div>
-</section>
-
--->
 <!-- FOOTER SECTION -->
 <footer>
     <div class="container">
         <div class="row">
 
-               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
+               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
                     <p class="white-color">Contact me at <a href="mailto: aabadian@uci.edu"   target="_blank">aabadian@uci.edu</a></p>
                     <p class="white-color">Copyright &copy; 2021-2022 Anahita Abadian
                     | Design: Tooplate</p>
