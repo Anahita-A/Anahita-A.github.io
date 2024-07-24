@@ -119,21 +119,30 @@ http://www.tooplate.com/view/2087-kalay
                            <div class='wow fadeInUp timeline-content' data-wow-delay="0.1s" >
                                  
                              <h4>Expedia Group</h4>
-                                 
+                                                            
                              <em>
-                               <span>Software Engineer ||</span>
+                               <span>Software Engineer || </span>
                                <span> | </span>
                                <span>Seattle, WA</span>
                                <span> | </span>
                                <span>September 2023 - May 2024</span>
                              </em>
                                  
-                             <p>
-                               <ul style="list-style-type:disc;">
-                                 <li> Identified and addressed a gap in an existing GraphQL Service.First,Conducted thorough analysis and
-                                   meticulously documented potential resolutions. Then, implemented customized Elasticsearch queries, including Multi-match and Boolean Query, using Spring Boot’s Spring Data Elasticsearch library. These enhancements enabled nested query functionality, supporting ~1300TPS</li>
-                                 <li>Set up AWS resources, including an S3 bucket and cross-functional IAM Role, via CloudFormation templates. This facilitated seamless uploading of test results from Jenkins to S3</li>
-                                 <li>Provided on-call support for Tier-1 and Tier-2 services, utilizing Datadog and Splunk for monitoring and troubleshooting purposes, and debugging client tickets</li>
+                             <p><span>I contributed to Expedia's core Order Management services. Below are some of the highlights of the tasks that I worked on:
+                              <br><br>
+                              <ul style="list-style-type:disc;">                                    
+                                 <li> Have you ever used Expedia's Virtual Chat Agent? My team and I added a feature so that it would show the cancellation fee/penalty of a Refund, to avoid customer's confusion. 
+                                   I developed the backend logic of this feature. It resulted in a 27% reduction in agent-assigned hours, leading to an estimated annual saving of $2.1M  
+                                 </li>
+                                 <br>
+                                 <li> I Identified and addressed a critical gap in a GraphQL core Search Service intended to replace an existing REST search service. The new service lacked Nested query functionality, which was essential for serving 
+                                   more than 70% of the original search REST API's. I Conducted a thorough analysis and documented potential resolutions. 
+                                   Then, implemented customized Elasticsearch queries, including Multi-match and Boolean Query, using Spring Boot’s Spring Data Elasticsearch library. These enhancements enabled nested query functionality, supporting ~1300TPS</li>
+                                 <br>
+                                 <li> Some other tasks I completed included: designing and implementing Performance Testing. I used Gatling, and mocked the downstream response.
+                                   Created some Branch deployment CI/CD pipelines (Using Spinnaker & Github Actions), and more! </li>
+                                 <br>
+                                   <li> I also Provided on-call support for Tier-1 and Tier-2 services, utilizing Datadog and Splunk for monitoring and troubleshooting purposes, and debugging client tickets</li>
                                  <br>
                                  
                                    <button class = "skill"><h6>Kotlin</h6></button>
@@ -169,9 +178,19 @@ http://www.tooplate.com/view/2087-kalay
                                  
                              <p>
                                <ul style="list-style-type:disc;">
-                                   <li>Established a Jenkins pipeline tailored specifically for our service.This pipeline orchestrated the entire CI/CD process, seamlessly integrating build, test and security scan stages</li>
+                                   <li>
+                                        One of my first tasks was to upload the Test results of a service to an S3 bucket. The bucket didn't exist, so first I created it using CFT (CloudFormation Templates).
+                                        The next step was to implement the uploading process in the CI/CD pipeline. This required setting up a cross-functional IAM role and writing scripts to complete the task
+                                   </li>
+                                   <br>
                                    <li>Increased the Test coverage of ~10 micro-services,leveraging Junit and Mockito for Unit Testing,and Wiremock for Integration Testing. Achieving a comprehensive coverage rate surpassing 85%, thereby ensuring compliance with internal testing standards</li>
-                                   <li>Successfully mentored and onboarded a new intern. Prepared an structured Onboarding checklist to facilitate their seamless integration into the team, and ensure a productive learning experience</li>
+                                   <br>
+                                   <li>My manager asked me if I wanted to be the Mentor/Buddy for the incoming summer intern. I was delighted! I was chosen from all the team members!!
+                                        Safe to say that I thoroughly enjoyed this experience, and put a lot of effort into preparing a comprehensive onboarding checklist for them, something I never had when I started.
+                                        Jokes aside, did you have good onboarding material where you work?
+                                        I also aimed to provide guidance while allowing room for exploration, encouraging them to learn and grow independently</li>
+                                   <br>
+                                   <li>Got the News that I've been promoted in the promotion cycle !! I was thrilled :)</li>
                                    <br>
                                    
                                         <button class = "skill"><h6>Java</h6></button>
